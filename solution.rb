@@ -1,5 +1,9 @@
 require 'sinatra'
 
-get '/makers/:nombre' do
+get '/' do
   erb :index
+end
+
+post '/saludo' do
+  erb :saludo
 end
